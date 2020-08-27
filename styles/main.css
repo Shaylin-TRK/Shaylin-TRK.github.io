@@ -1,0 +1,29 @@
+body {
+
+    background-color: #151515;
+    background-image: url(../pictures/plains.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    text-align: center;
+    
+}
+
+header h1 {
+    color: #252525;
+    font-size: 70px;
+    text-shadow: 1px 1px 0px #151515, 
+                 2px 2px 0px #151515;
+}
+
+.avatar {
+    display: block;
+    margin: auto;
+
+    border: 5px solid #272127;
+    border-radius: 50px;
+}
