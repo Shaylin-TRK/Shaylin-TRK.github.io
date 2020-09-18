@@ -22,7 +22,7 @@ function close_header() {
 
 let openStatus = true;
 
-openCloseButton.onclick = () => { 
+openCloseButtonIcon.onclick = () => { 
     
     if (openStatus) {
         /*content1.style.display = 'none';
