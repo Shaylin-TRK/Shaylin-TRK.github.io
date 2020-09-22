@@ -82,6 +82,7 @@ header {
 }
 
 #buttonIcon {
+    rotation: 180deg;
     margin: auto;
     transition-duration: 1s;
     
