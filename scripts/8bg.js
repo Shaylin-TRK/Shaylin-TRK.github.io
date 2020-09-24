@@ -49,13 +49,13 @@ openCloseButton.onclick = () => {
         
         top1.style.height = '0px';
         top2.style.height = '39px';
-        openCloseButtonIcon.style.rotate = '180deg';
+        openCloseButtonIcon.style.transform = 'rotate(180deg)';
 
         openStatus = false;
     } else {
         top1.style.height = '190px';
         top2.style.height = '239px';
-        openCloseButtonIcon.style.rotate = 'none';
+        openCloseButtonIcon.style.transform = 'rotate(0deg)';
         
         content1.style.display = 'block';
         content2.style.display = 'block';
