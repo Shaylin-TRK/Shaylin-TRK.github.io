@@ -1,6 +1,8 @@
 console.log('Thanks for checking out my profile site!');
 console.log(' If you have any ideas for improvement please send them my way.');
 
+const body = document.body;
+
 const upArrowSrc = './icons/up.png';
 const downArrowSrc = './icons/down.png';
 
@@ -15,14 +17,30 @@ const content1 = document.getElementById('home_anchor');
 const content2 = document.getElementById('name');
 const content3 = document.getElementById('fake_object1');
 
-function close_header() {
-    console.log('activated');
-    
+
+
+const projectsGrid = document.getElementById("projects_grid")
+const project1 = document.getElementById("project1");
+const project2 = document.getElementById("project2");
+const project3 = document.getElementById("project3");
+const project4 = document.getElementById("project4");
+
+
+projectsGrid.style.height = projectsGrid.offsetWidth + "px";
+
+body.onresize = () => {
+    projectsGrid.style.height = projectsGrid.offsetWidth + "px";
 }
+
+
+const hideMessage = () => {
+    document.getElementById("message").style.display = "none";
+}
+
 
 let openStatus = true;
 
-openCloseButtonIcon.onclick = () => { 
+openCloseButton.onclick = () => { 
     
     if (openStatus) {
         /*content1.style.display = 'none';
@@ -47,3 +65,5 @@ openCloseButtonIcon.onclick = () => {
     }
     
 } 
+
+
