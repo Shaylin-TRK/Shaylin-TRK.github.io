@@ -9,14 +9,31 @@
     </head>
  
     <body>
+        <div id="message">
+            <h1>This site is under construction</h1>
+            <h2>As such it's content is not complete and may be inacurate</h2>
+            <button onclick="hideMessage()">Okay, I understand...</button>
+        </div>
+
         <header>
             <div class="header">
+                
                 <a href="#" id="home_anchor"><img id="avatar" src="./pictures/profile1.jpeg"></a>
                 <h1 id="name">8-Bit-Gaming</h1>
                 <section id="fake_object1"></section>
             </div>    
             
             <div id="close_holder">
+                <div class="links">
+                    <a href="#">
+                        Projects
+                    </a>
+
+                    <a class="right">
+                        Bio
+                    </a>
+                </div>
+                
                 <button id="close_header">
                     <img id="buttonIcon" src="./icons/up.png">
                 </button>
@@ -29,19 +46,64 @@
 
         <main>
             <section class="main_content">
+                
                 <br>
                 <br>
                 <br>
 
-                <h1>
-                ~~ Info ~~
-                </h1>
-                
-                <p>
-                    I have had a deep interest in computer science for years, and have enjoyed tinkering with desktops, laptops, and other device for awhile now. 
-                    I started to get seriously interested in computer programming in late 2019, and began doing more research on the subject. 
-                    Since then I have begun a much greater
-                </p>
+                <div class="about">
+                    <h1>
+                        Home
+                    </h1>
+
+                    <p>
+                        I am an amateur computer programmer seeking to learn as much as I can in the fields of technology
+                        and science. I do my best work in Python 3, building console applications, or using Tkinter to 
+                        build GUI desktop application. I also work with HTML CSS and JavaScript to build front end 
+                        websites, such as my portfolio, and browser based apps. 
+                    </p>                
+
+                    <br>
+
+                    <p>
+                        The farther I have progressed the more interested I have become in lower level computer programming 
+                        languages, and as a byproduct of this I enjoy working in the C family, namely C and C++.
+                    </p>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+                <div class="projects">
+
+                    <h1>
+                        Projects
+                    </h1>
+
+                    <br>
+
+                    <div id="projects_grid">
+                        <div class="project" id="project1">
+                            <h2>Python Desktop Apps</h2>
+                            Python BlackJack project goes here
+                        </div>
+                        <div class="project" id="project2">
+                            <h2>C++ Adventure </h2>
+                            C++ choose your own adventure goes here once completed
+                        </div>
+                        <div class="project" id="project3">
+                            <h2>Other Projects</h2>
+                            Other projects go here
+                        </div>
+                        <div class="project" id="project4">
+                            <h2>Web Design</h2>
+                            Portfolio code will go here
+                        </div>
+                    </div>
+                </div>
+                    
+
             </section>
         </main>
 
